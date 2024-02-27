@@ -12,6 +12,6 @@ I created this website to document my progress as I learn to code with HTML and 
 
 . Portfolio - This will highlight the kind of work I can do and am capable of producing.  
 
-# Contact
+## Contact
 
 If you would like to contact me about this work, please reach out to find.serendipity@gmail.com
