@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://cdn.midjourney.com/3d23086a-7e33-4a5e-97d4-a5c83919e271/0_1.webp");
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    color:rgb(72, 0, 0);
+}
+
+nav {
+    text-align: center;
+}
+
+.nav {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: #FFF 2px 0 20px;
+    font-weight: 800;
+    border: 2px dotted black;
+    border-radius: 150px;
+    padding:2px;
+}
+
+.nav:hover {
+    background-color: rgba(251, 244, 219, 0.8);
+    border: dashed;
+    font-weight: 500;
+}
+
+.invisible {
+    color:transparent;
+    font-size: x-small;
+    text-align: center;
+}
+
+.mainimg {
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .mainimg:hover {
+    opacity: .01;
+} */
+
+.maintext {
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: #FFF 2px 0 20px;
+    font-weight: 800;
+    padding:2px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#thump {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 0 auto;
+}
