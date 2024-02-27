@@ -1,17 +1,22 @@
 body {
+    background-color:antiquewhite; 
     background-image: url("https://cdn.midjourney.com/3d23086a-7e33-4a5e-97d4-a5c83919e271/0_1.webp");
     background-repeat: repeat;
     background-size: contain;
 }
 
-footer {
-    text-align: center;
-    font-size: x-small;
-    color:rgb(72, 0, 0);
-}
-
 nav {
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: x-small;
+    color:rgb(0, 0, 0);
+    text-shadow: #FFF 2px 0 20px;
+    font-family: monospace;
+    font-weight: 800;
+    margin-top: 20px;
 }
 
 .nav {
@@ -44,9 +49,9 @@ nav {
     text-align: center;
 }
 
-/* .mainimg:hover {
+.mainimg:hover {
     opacity: .01;
-} */
+}
 
 .maintext {
     font-size: xx-large;
@@ -67,4 +72,10 @@ nav {
     transform: translate(-50%, -50%);
     margin: 0 auto;
     padding: 0 auto;
+    font-size: x-large;
+}
+
+#musicplayer {
+    text-align: center;
+    opacity: .9;
 }
