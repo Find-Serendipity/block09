@@ -3,6 +3,7 @@ body {
     background-image: url("https://cdn.discordapp.com/attachments/1016425495564398685/1212115393620086896/output-onlinepngtools.png?ex=65f0a96d&is=65de346d&hm=788e50216e2024ba6e17bd4b76ae44128a5f82310f40191c37f8ef8ab75bcda2&");
     background-repeat: repeat;
     background-size: contain;
+    list-style-position: inside;
 }
 
 nav {
@@ -13,7 +14,7 @@ nav {
 .footer {
     text-align: center;
     font-size: x-small;
-    color:rgb(0, 0, 0);
+    color:rgb(53, 26, 0);
     text-shadow: #FFF 2px 0 20px;
     font-family: monospace;
     font-weight: 800;
@@ -21,13 +22,13 @@ nav {
 }
 
 .nav {
-    color: black;
+    color: rgb(53, 26, 0);;
     font-size: x-large;
     text-align: center;
     text-decoration: none;
     text-shadow: #FFF 2px 0 20px;
     font-weight: 800;
-    border: 2px dotted black;
+    border: 2px dotted rgb(53, 26, 0);;
     border-radius: 150px;
     padding:2px;
 }
@@ -73,6 +74,10 @@ nav {
     text-align: center;
 }
 
+.projectcontainer {
+    text-align: center;
+}
+
 .paragraph {
     display: flex;
     flex-direction: column;
@@ -81,6 +86,32 @@ nav {
     text-align: justify;
     width: 700px;
     margin: 0 auto;
+}
+
+.img {
+    text-align: center;
+    border-radius: 400px;
+    padding: 10px;
+}
+
+.projectcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.projectheader {
+    padding-inline-start: 25%;
+    text-decoration: underline;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
 }
 
 #thump {
@@ -100,5 +131,5 @@ nav {
 
 #selfie {
     border-radius: 500px;
-    border: 1px dotted black;
+    border: 3px dotted rgb(53, 26, 0);
 }
