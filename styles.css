@@ -91,7 +91,7 @@ nav {
 .img {
     text-align: center;
     border-radius: 400px;
-    padding: 10px;
+    box-shadow: 0 0 20px black;
 }
 
 .projectcontainer {
@@ -106,6 +106,10 @@ nav {
 .projectheader {
     padding-inline-start: 25%;
     text-decoration: underline;
+}
+
+.projectpad {
+    padding: 10px;
 }
 
 .list {
